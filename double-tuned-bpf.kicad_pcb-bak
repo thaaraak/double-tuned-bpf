@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -551,8 +551,8 @@
   (segment (start 106.57176 97.52824) (end 109 95.1) (width 0.5) (layer F.Cu) (net 4))
   (segment (start 104.00508 97.52824) (end 106.57176 97.52824) (width 0.5) (layer F.Cu) (net 4))
   (segment (start 109 95.1) (end 115.8 95.1) (width 0.5) (layer F.Cu) (net 4))
-  (segment (start 117.23 96.53) (end 120 96.53) (width 0.5) (layer F.Cu) (net 4))
   (segment (start 115.8 95.1) (end 117.23 96.53) (width 0.5) (layer F.Cu) (net 4))
+  (segment (start 117.23 96.53) (end 120 96.53) (width 0.5) (layer F.Cu) (net 4))
   (segment (start 146.35 94.9) (end 147.1 95.65) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 145 94.9) (end 146.35 94.9) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 147.1 96.72316) (end 147.90508 97.52824) (width 0.5) (layer F.Cu) (net 5))
@@ -561,7 +561,7 @@
   (segment (start 142.673999 94.9) (end 141.663999 93.89) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 145 94.9) (end 142.673999 94.9) (width 0.5) (layer F.Cu) (net 5))
 
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 63912D73) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 63912EF1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -783,7 +783,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 63912D70) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 63912EEE) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

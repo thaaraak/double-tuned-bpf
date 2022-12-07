@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2650 4500 2650
 $Comp
-L Tayloe-Mixer-v2-rescue:T37_XFRM-Xenir T2
+L double-tuned-bpf-rescue:T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue T2
 U 1 1 5E9E9ADC
 P 5450 2500
 F 0 "T2" H 5450 2541 50  0000 C CNN
@@ -85,7 +85,7 @@ F 3 "" H 5450 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tayloe-Mixer-v2-rescue:Trimcap-Xenir VC6
+L double-tuned-bpf-rescue:Trimcap-Xenir-Tayloe-Mixer-v2-rescue VC6
 U 1 1 5E9E8F97
 P 4850 2550
 F 0 "VC6" H 4958 2196 50  0000 L CNN
@@ -96,7 +96,7 @@ F 3 "" H 4850 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tayloe-Mixer-v2-rescue:Capacitor-Xenir C3
+L double-tuned-bpf-rescue:Capacitor-Xenir-Tayloe-Mixer-v2-rescue C3
 U 1 1 5E9E8D24
 P 4250 2150
 F 0 "C3" V 4150 2300 50  0000 C CNN
@@ -107,7 +107,7 @@ F 3 "" H 4250 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tayloe-Mixer-v2-rescue:Capacitor-Xenir C4
+L double-tuned-bpf-rescue:Capacitor-Xenir-Tayloe-Mixer-v2-rescue C4
 U 1 1 5E9E81AF
 P 4250 2650
 F 0 "C4" V 4150 2800 50  0000 C CNN
@@ -118,7 +118,7 @@ F 3 "" H 4250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tayloe-Mixer-v2-rescue:Capacitor-Xenir C5
+L double-tuned-bpf-rescue:Capacitor-Xenir-Tayloe-Mixer-v2-rescue C5
 U 1 1 5E9E7736
 P 4500 2950
 F 0 "C5" H 4450 3100 50  0000 L CNN
@@ -129,7 +129,7 @@ F 3 "" H 4500 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Tayloe-Mixer-v2-rescue:Capacitor-Xenir C2
+L double-tuned-bpf-rescue:Capacitor-Xenir-Tayloe-Mixer-v2-rescue C2
 U 1 1 5E9E667F
 P 4000 2950
 F 0 "C2" H 3950 3100 50  0000 L CNN
@@ -140,7 +140,7 @@ F 3 "" H 4000 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Tayloe-Mixer-v2-rescue:Trimcap-Xenir VC1
+L double-tuned-bpf-rescue:Trimcap-Xenir-Tayloe-Mixer-v2-rescue VC1
 U 1 1 5E9DC9D6
 P 3650 2550
 F 0 "VC1" H 3400 2200 50  0000 L CNN
@@ -164,7 +164,7 @@ F 3 "" H 2450 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tayloe-Mixer-v2-rescue:T37_XFRM-Xenir T1
+L double-tuned-bpf-rescue:T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue T1
 U 1 1 5E9D7159
 P 3050 2500
 F 0 "T1" H 3050 2541 50  0000 C CNN
@@ -3050,7 +3050,7 @@ DD 00 00 00 00 49 45 4E 44 AE 42 60 82
 EndData
 $EndBitmap
 $Comp
-L Xenir:PCB_SMA_EDGE J1
+L double-tuned-bpf-rescue:PCB_SMA_EDGE-Xenir J1
 U 1 1 6393BB21
 P 2175 2450
 F 0 "J1" H 2225 2350 50  0000 C CNN
@@ -3061,7 +3061,7 @@ F 3 "" H 2175 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xenir:PCB_SMA_EDGE J2
+L double-tuned-bpf-rescue:PCB_SMA_EDGE-Xenir J2
 U 1 1 6393CE58
 P 6200 2450
 F 0 "J2" H 6250 2350 50  0000 C CNN

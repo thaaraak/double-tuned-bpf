@@ -1,34 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x03_Female
+# Capacitor-Xenir-Tayloe-Mixer-v2-rescue
 #
-DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Female" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# double-tuned-bpf-rescue_Capacitor-Xenir-Tayloe-Mixer-v2-rescue
-#
-DEF double-tuned-bpf-rescue_Capacitor-Xenir-Tayloe-Mixer-v2-rescue C 0 40 Y Y 1 F N
+DEF Capacitor-Xenir-Tayloe-Mixer-v2-rescue C 0 40 Y Y 1 F N
 F0 "C" 0 125 28 H V C CNN
-F1 "double-tuned-bpf-rescue_Capacitor-Xenir-Tayloe-Mixer-v2-rescue" 0 -125 28 H V C CNN
+F1 "Capacitor-Xenir-Tayloe-Mixer-v2-rescue" 0 -125 28 H V C CNN
 F2 "" 0 -150 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 DRAW
@@ -39,11 +16,11 @@ X ~ 2 150 0 110 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# double-tuned-bpf-rescue_PCB_SMA_EDGE-Xenir
+# PCB_SMA_EDGE-Xenir
 #
-DEF double-tuned-bpf-rescue_PCB_SMA_EDGE-Xenir J 0 40 Y Y 1 F N
+DEF PCB_SMA_EDGE-Xenir J 0 40 Y Y 1 F N
 F0 "J" 50 -100 50 H V C CNN
-F1 "double-tuned-bpf-rescue_PCB_SMA_EDGE-Xenir" 0 0 50 H V C CNN
+F1 "PCB_SMA_EDGE-Xenir" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -60,11 +37,11 @@ X 2 2 100 -300 100 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# double-tuned-bpf-rescue_T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue
+# T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue
 #
-DEF double-tuned-bpf-rescue_T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue T 0 40 Y Y 1 F N
+DEF T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue T 0 40 Y Y 1 F N
 F0 "T" 0 -850 50 H V C CNN
-F1 "double-tuned-bpf-rescue_T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue" 0 0 50 H V C CNN
+F1 "T37_XFRM-Xenir-Tayloe-Mixer-v2-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -93,11 +70,11 @@ X C2B C2B 400 -150 200 L 0 0 1 1 B
 ENDDRAW
 ENDDEF
 #
-# double-tuned-bpf-rescue_Trimcap-Xenir-Tayloe-Mixer-v2-rescue
+# Trimcap-Xenir-Tayloe-Mixer-v2-rescue
 #
-DEF double-tuned-bpf-rescue_Trimcap-Xenir-Tayloe-Mixer-v2-rescue VC 0 40 Y Y 1 F N
+DEF Trimcap-Xenir-Tayloe-Mixer-v2-rescue VC 0 40 Y Y 1 F N
 F0 "VC" 150 -400 50 H V C CNN
-F1 "double-tuned-bpf-rescue_Trimcap-Xenir-Tayloe-Mixer-v2-rescue" 0 0 50 H V C CNN
+F1 "Trimcap-Xenir-Tayloe-Mixer-v2-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -113,19 +90,6 @@ P 2 1 1 0 0 -350 0 -370 N
 P 2 1 1 0 60 -470 -90 -320 N
 X E 1 0 -250 100 D 0 0 1 1 P
 X A 2 0 -550 100 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
