@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Tayloe-Mixer-v2-rescue)(type Legacy)(uri "C:/Users/Caliphax/git/Tayloe-Mixer-v3/Tayloe Mixer v2-rescue.lib")(options "")(descr ""))
+  (lib (name Tayloe-Mixer-v3-rescue)(type Legacy)(uri C:/Users/Caliphax/git/Tayloe-Mixer-v3/Tayloe-Mixer-v3-rescue.lib)(options "")(descr ""))
+)
