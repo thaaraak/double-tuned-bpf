@@ -3124,7 +3124,7 @@ Text GLabel 2575 2650 1    50   Input ~ 0
 Input
 Text GLabel 5925 2650 1    50   Input ~ 0
 Output
-Text GLabel 2650 3825 0    50   Input ~ 0
+Text GLabel 2650 3925 0    50   Input ~ 0
 Input
 $Comp
 L power:GND #PWR0102
@@ -3137,7 +3137,7 @@ F 3 "" H 2650 4025 50  0001 C CNN
 	1    2650 4025
 	1    0    0    -1  
 $EndComp
-Text GLabel 3750 3825 0    50   Input ~ 0
+Text GLabel 3750 3925 0    50   Input ~ 0
 Output
 $Comp
 L power:GND #PWR0103
@@ -3150,4 +3150,18 @@ F 3 "" H 3750 4025 50  0001 C CNN
 	1    3750 4025
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 3825 3375 3825
+Wire Wire Line
+	3375 3825 3375 4025
+Wire Wire Line
+	3375 4025 3750 4025
+Connection ~ 3750 4025
+Wire Wire Line
+	2650 3825 2350 3825
+Wire Wire Line
+	2350 3825 2350 4025
+Wire Wire Line
+	2350 4025 2650 4025
+Connection ~ 2650 4025
 $EndSCHEMATC
